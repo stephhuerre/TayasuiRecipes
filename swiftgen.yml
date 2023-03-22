@@ -1,0 +1,21 @@
+input_dir: TayasuiRecipes/
+output_dir: TayasuiRecipes/Generated/
+
+## XCAssets
+xcassets:
+  inputs:
+    - SupportFiles/Assets.xcassets
+  outputs:
+    templateName: swift5
+    params:
+      forceProvidesNamespaces: true
+      forceFileNameEnum: true
+    output: XCAssets+Generated.swift
+
+## Interface Builder
+ib:
+  inputs:
+    - .
+  outputs:
+    - templateName: scenes-swift5
+      output: IB-Scenes+Generated.swift

@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97A5A0C029C7B02A00D97478 /* TayasuiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A0BF29C7B02A00D97478 /* TayasuiConstants.swift */; };
+		97A5A0C629C87EFC00D97478 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 97A5A0C529C87EFC00D97478 /* swiftgen.yml */; };
+		97A5A0C929C8803B00D97478 /* IB-Scenes+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A0C729C8803A00D97478 /* IB-Scenes+Generated.swift */; };
+		97A5A0CA29C8803B00D97478 /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A0C829C8803B00D97478 /* XCAssets+Generated.swift */; };
+		97A5A0CC29C8813A00D97478 /* RecipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A0CB29C8813A00D97478 /* RecipeVC.swift */; };
+		97A5A0CE29C8910500D97478 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A0CD29C8910500D97478 /* UIView+Extension.swift */; };
+		97A5A0D129C8A3F400D97478 /* RecipeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A0D029C8A3F400D97478 /* RecipeStore.swift */; };
+		97A5A0D529C9ABB300D97478 /* NSMutableArray+(Sort).m in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A0D329C9ABB300D97478 /* NSMutableArray+(Sort).m */; };
+		97A5A0D829CB0F2200D97478 /* RecipeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5A0D729CB0F2200D97478 /* RecipeFactory.swift */; };
+		97E1932A29C71F0900F86F0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E1932929C71F0900F86F0C /* AppDelegate.swift */; };
+		97E1932C29C71F0900F86F0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E1932B29C71F0900F86F0C /* SceneDelegate.swift */; };
+		97E1932E29C71F0900F86F0C /* RecipesTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E1932D29C71F0900F86F0C /* RecipesTableVC.swift */; };
+		97E1933129C71F0900F86F0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E1932F29C71F0900F86F0C /* Main.storyboard */; };
+		97E1933329C71F0C00F86F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E1933229C71F0C00F86F0C /* Assets.xcassets */; };
+		97E1933629C71F0C00F86F0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E1933429C71F0C00F86F0C /* LaunchScreen.storyboard */; };
+		97E1934329C72AAE00F86F0C /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E1934229C72AAE00F86F0C /* Recipe.swift */; };
+		97E1934529C745BB00F86F0C /* RecipeTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E1934429C745BB00F86F0C /* RecipeTCell.swift */; };
+		E5D34C258F651CA161C2ADC5 /* Pods_TayasuiRecipes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5268EC2E1F29295D97250D9 /* Pods_TayasuiRecipes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85B1D273507BF754D818218E /* Pods-TayasuiRecipes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TayasuiRecipes.debug.xcconfig"; path = "Target Support Files/Pods-TayasuiRecipes/Pods-TayasuiRecipes.debug.xcconfig"; sourceTree = "<group>"; };
+		86137B0B831E4981A9C60D4C /* Pods-TayasuiRecipes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TayasuiRecipes.release.xcconfig"; path = "Target Support Files/Pods-TayasuiRecipes/Pods-TayasuiRecipes.release.xcconfig"; sourceTree = "<group>"; };
+		97A5A0BF29C7B02A00D97478 /* TayasuiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayasuiConstants.swift; sourceTree = "<group>"; };
+		97A5A0C529C87EFC00D97478 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		97A5A0C729C8803A00D97478 /* IB-Scenes+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IB-Scenes+Generated.swift"; sourceTree = "<group>"; };
+		97A5A0C829C8803B00D97478 /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
+		97A5A0CB29C8813A00D97478 /* RecipeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeVC.swift; sourceTree = "<group>"; };
+		97A5A0CD29C8910500D97478 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		97A5A0D029C8A3F400D97478 /* RecipeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStore.swift; sourceTree = "<group>"; };
+		97A5A0D229C9ABB100D97478 /* TayasuiRecipes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TayasuiRecipes-Bridging-Header.h"; sourceTree = "<group>"; };
+		97A5A0D329C9ABB300D97478 /* NSMutableArray+(Sort).m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+(Sort).m"; sourceTree = "<group>"; };
+		97A5A0D429C9ABB300D97478 /* NSMutableArray+(Sort).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+(Sort).h"; sourceTree = "<group>"; };
+		97A5A0D729CB0F2200D97478 /* RecipeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFactory.swift; sourceTree = "<group>"; };
+		97E1932629C71F0900F86F0C /* TayasuiRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TayasuiRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E1932929C71F0900F86F0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97E1932B29C71F0900F86F0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		97E1932D29C71F0900F86F0C /* RecipesTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesTableVC.swift; sourceTree = "<group>"; };
+		97E1933029C71F0900F86F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97E1933229C71F0C00F86F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97E1933529C71F0C00F86F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97E1933729C71F0C00F86F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E1934229C72AAE00F86F0C /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		97E1934429C745BB00F86F0C /* RecipeTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTCell.swift; sourceTree = "<group>"; };
+		B5268EC2E1F29295D97250D9 /* Pods_TayasuiRecipes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TayasuiRecipes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97E1932329C71F0900F86F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D34C258F651CA161C2ADC5 /* Pods_TayasuiRecipes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067887332ADDA15567A68C89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5268EC2E1F29295D97250D9 /* Pods_TayasuiRecipes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97A5A0CF29C8A22600D97478 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				97A5A0CD29C8910500D97478 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		97A5A0D629C9DC3F00D97478 /* ObjCHelperFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				97A5A0D229C9ABB100D97478 /* TayasuiRecipes-Bridging-Header.h */,
+				97A5A0D329C9ABB300D97478 /* NSMutableArray+(Sort).m */,
+				97A5A0D429C9ABB300D97478 /* NSMutableArray+(Sort).h */,
+			);
+			path = ObjCHelperFunctions;
+			sourceTree = "<group>";
+		};
+		97A5A0D929CB28D700D97478 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				97E1934229C72AAE00F86F0C /* Recipe.swift */,
+				97A5A0D729CB0F2200D97478 /* RecipeFactory.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		97A5A0DA29CB294300D97478 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				97E1932D29C71F0900F86F0C /* RecipesTableVC.swift */,
+				97A5A0CB29C8813A00D97478 /* RecipeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		97A5A0DB29CB295600D97478 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97E1934429C745BB00F86F0C /* RecipeTCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		97E1931D29C71F0900F86F0C = {
+			isa = PBXGroup;
+			children = (
+				97A5A0C529C87EFC00D97478 /* swiftgen.yml */,
+				97E1932829C71F0900F86F0C /* TayasuiRecipes */,
+				97E1932729C71F0900F86F0C /* Products */,
+				E4DAE27D48AD790C3CBF3316 /* Pods */,
+				067887332ADDA15567A68C89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97E1932729C71F0900F86F0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97E1932629C71F0900F86F0C /* TayasuiRecipes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97E1932829C71F0900F86F0C /* TayasuiRecipes */ = {
+			isa = PBXGroup;
+			children = (
+				97A5A0DB29CB295600D97478 /* View */,
+				97A5A0DA29CB294300D97478 /* Controller */,
+				97A5A0D929CB28D700D97478 /* Model */,
+				97A5A0D029C8A3F400D97478 /* RecipeStore.swift */,
+				97E1932F29C71F0900F86F0C /* Main.storyboard */,
+				97A5A0BF29C7B02A00D97478 /* TayasuiConstants.swift */,
+				97E1933F29C7253700F86F0C /* Generated */,
+				97A5A0CF29C8A22600D97478 /* Extensions */,
+				97A5A0D629C9DC3F00D97478 /* ObjCHelperFunctions */,
+				97E1933E29C724EC00F86F0C /* SupportFiles */,
+			);
+			path = TayasuiRecipes;
+			sourceTree = "<group>";
+		};
+		97E1933E29C724EC00F86F0C /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				97E1933729C71F0C00F86F0C /* Info.plist */,
+				97E1932B29C71F0900F86F0C /* SceneDelegate.swift */,
+				97E1932929C71F0900F86F0C /* AppDelegate.swift */,
+				97E1933429C71F0C00F86F0C /* LaunchScreen.storyboard */,
+				97E1933229C71F0C00F86F0C /* Assets.xcassets */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		97E1933F29C7253700F86F0C /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				97A5A0C729C8803A00D97478 /* IB-Scenes+Generated.swift */,
+				97A5A0C829C8803B00D97478 /* XCAssets+Generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		E4DAE27D48AD790C3CBF3316 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85B1D273507BF754D818218E /* Pods-TayasuiRecipes.debug.xcconfig */,
+				86137B0B831E4981A9C60D4C /* Pods-TayasuiRecipes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97E1932529C71F0900F86F0C /* TayasuiRecipes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97E1933A29C71F0C00F86F0C /* Build configuration list for PBXNativeTarget "TayasuiRecipes" */;
+			buildPhases = (
+				A2E0C1855813BCFFB55BD49C /* [CP] Check Pods Manifest.lock */,
+				97E1933D29C7209D00F86F0C /* SwiftGen */,
+				97E1934029C7255E00F86F0C /* SwiftLint */,
+				97E1932229C71F0900F86F0C /* Sources */,
+				97E1932329C71F0900F86F0C /* Frameworks */,
+				97E1932429C71F0900F86F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TayasuiRecipes;
+			productName = TayasuiRecipes;
+			productReference = 97E1932629C71F0900F86F0C /* TayasuiRecipes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97E1931E29C71F0900F86F0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					97E1932529C71F0900F86F0C = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+				};
+			};
+			buildConfigurationList = 97E1932129C71F0900F86F0C /* Build configuration list for PBXProject "TayasuiRecipes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97E1931D29C71F0900F86F0C;
+			productRefGroup = 97E1932729C71F0900F86F0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97E1932529C71F0900F86F0C /* TayasuiRecipes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97E1932429C71F0900F86F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E1933629C71F0C00F86F0C /* LaunchScreen.storyboard in Resources */,
+				97E1933329C71F0C00F86F0C /* Assets.xcassets in Resources */,
+				97E1933129C71F0900F86F0C /* Main.storyboard in Resources */,
+				97A5A0C629C87EFC00D97478 /* swiftgen.yml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97E1933D29C7209D00F86F0C /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n    echo \"SwiftGen running\"\n    \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi\n";
+		};
+		97E1934029C7255E00F86F0C /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+		A2E0C1855813BCFFB55BD49C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TayasuiRecipes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97E1932229C71F0900F86F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A5A0CE29C8910500D97478 /* UIView+Extension.swift in Sources */,
+				97A5A0D829CB0F2200D97478 /* RecipeFactory.swift in Sources */,
+				97A5A0D529C9ABB300D97478 /* NSMutableArray+(Sort).m in Sources */,
+				97A5A0CA29C8803B00D97478 /* XCAssets+Generated.swift in Sources */,
+				97A5A0C029C7B02A00D97478 /* TayasuiConstants.swift in Sources */,
+				97A5A0CC29C8813A00D97478 /* RecipeVC.swift in Sources */,
+				97E1932E29C71F0900F86F0C /* RecipesTableVC.swift in Sources */,
+				97E1932A29C71F0900F86F0C /* AppDelegate.swift in Sources */,
+				97A5A0D129C8A3F400D97478 /* RecipeStore.swift in Sources */,
+				97E1932C29C71F0900F86F0C /* SceneDelegate.swift in Sources */,
+				97E1934329C72AAE00F86F0C /* Recipe.swift in Sources */,
+				97E1934529C745BB00F86F0C /* RecipeTCell.swift in Sources */,
+				97A5A0C929C8803B00D97478 /* IB-Scenes+Generated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97E1932F29C71F0900F86F0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97E1933029C71F0900F86F0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97E1933429C71F0C00F86F0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97E1933529C71F0C00F86F0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97E1933829C71F0C00F86F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97E1933929C71F0C00F86F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97E1933B29C71F0C00F86F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B1D273507BF754D818218E /* Pods-TayasuiRecipes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6B48395H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TayasuiRecipes/SupportFiles/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephanie.TayasuiRecipes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TayasuiRecipes/ObjCHelperFunctions/TayasuiRecipes-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97E1933C29C71F0C00F86F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86137B0B831E4981A9C60D4C /* Pods-TayasuiRecipes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6B48395H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TayasuiRecipes/SupportFiles/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephanie.TayasuiRecipes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TayasuiRecipes/ObjCHelperFunctions/TayasuiRecipes-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97E1932129C71F0900F86F0C /* Build configuration list for PBXProject "TayasuiRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E1933829C71F0C00F86F0C /* Debug */,
+				97E1933929C71F0C00F86F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97E1933A29C71F0C00F86F0C /* Build configuration list for PBXNativeTarget "TayasuiRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E1933B29C71F0C00F86F0C /* Debug */,
+				97E1933C29C71F0C00F86F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97E1931E29C71F0900F86F0C /* Project object */;
+}
